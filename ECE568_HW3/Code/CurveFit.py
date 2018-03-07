@@ -5,14 +5,11 @@ Homework 3
 This Code complete homework 3
 """
 
-
-
 """"
 This code was modified by Tina Drew from:
 Curve fitting by  Sam Ramezanli Create curvefit.py
 https://github.com/samramez/Bayesian-Curve-Fitting
 """
-
 from decimal import*
 getcontext().prec = 28
 from fractions import Fraction
@@ -66,10 +63,6 @@ def store(filename):
     return(X)
 #end---------------------------------------------------------
 
-
-#we are storing the file in Datas file. 
-# Datas = store(file)
-# Dlength = len(Datas)
 Datas =[1222.52,1222.51,1222.29,1222.9,1222.37,1222.272,1222.356,1222.53,1222.69,1222.90]
 
 
