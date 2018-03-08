@@ -1,18 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- <?xml version="1.0" encoding="ISO-8859-1" ?> -->
-<?xml-stylesheet type="text/xsl" href="bib2.xsl"?>
-<!DOCTYPE bib SYSTEM "bib.dtd">
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="bib3a.xsl"?>
+<!DOCTYPE bib SYSTEM "bib3a.dtd">
 
 <bib>
 	<book>
-		<author>Leslie Lamport</author>
-		<title>Latex: A Document Preparation System </title>
+		<author>
+          <first>Leslie</first> 
+          <last>Lamport</last>
+      	</author>
+		<title>Latex: A Document Preparation System</title>
 		<year>1986</year>
 		<publisher>Addison-Wesley</publisher>
 	</book>
 
 	<article>
-		<author>David Marr</author>
+		<author>
+          <first>David</first> 
+          <last>Marr</last>
+      	</author>
 		<title>Visual information processing</title>
 		<year>1980</year>
 		<volume>290</volume>
@@ -24,20 +29,25 @@
 	</article>
 	
 	<article>
-		<author>R. K. Clifton </author>
-		<title>Breakdown of echo suppression in the precedence
-	effect</title>
+		<author>
+          <first>R. K.</first> 
+          <last>Clifton</last> 
+        </author>
+		<title>Breakdown of echo suppression in the precedence effect</title>
 		<year>1987</year>
 		<volume>82</volume>
 		<page>
 			<from>1834</from>
 			<to>1835</to>
 		</page>
-		<journal>J. Acoust. Soc. Am. </journal>
+		<journal>J. Acoust. Soc. Am.</journal>
 	</article>
 	
 	<book>
-		<author>David Marr</author>
+		<author>
+          <first>David</first> 
+          <last>Marr</last>
+      	</author>
 		<title>Vision</title>
 		<year>1982</year>
 		<address> NY </address>
@@ -45,7 +55,10 @@
 	</book>
 
 	<article>
-		<author>David Marr</author>
+		<author>
+          <first>David</first> 
+          <last>Marr</last>
+      	</author>
 		<title>Visual information processing</title>
 		<year>1980</year>
 		<volume>290</volume>

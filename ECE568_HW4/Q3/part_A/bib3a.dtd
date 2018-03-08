@@ -3,7 +3,9 @@
 <!ELEMENT book ( author, title, year, (address)?, publisher )>
 <!ELEMENT article ( author, title, year, volume, page, journal) >
 <!ELEMENT page (from, to)>
-<!ELEMENT author (#PCDATA)>
+<!ELEMENT author (first, last)>
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT last (#PCDATA)>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT year (#PCDATA)>
 <!ELEMENT address (#PCDATA)>
