@@ -65,6 +65,7 @@ def store(filename):
 
 Datas =[1222.52,1222.51,1222.29,1222.9,1222.37,1222.272,1222.356,1222.53,1222.69,1222.90]
 
+#Datas =[12.52,12.51,12.29,12.29,12.37,12.272,12.356,12.53,12.69,12.90]
 
 #the following function, generates the PhiX
 #start---------------------------------------------------------
@@ -75,6 +76,7 @@ def getPhiX(x):
         PhiX.append(math.pow(x,i))
         i += 1
     PhiX = numpy.array(PhiX)
+    #print('PhiX: ', PhiX)
     return PhiX
     
 #end---------------------------------------------------------
@@ -96,11 +98,12 @@ def getInvS():
         PhiX =getPhiX(N[n])  #Phix = PhiX[j]
         PhiX.shape=(Mp,1)
         PhiXT = numpy.transpose(PhiX) #DONE 
-        tmp += numpy.dot(PhiX,PhiXT) #DONE   
+        tmp += numpy.dot(PhiX,PhiXT) #Multipy PhiX by it's transpose. Then add to summary. 
         
     betaPhi = beta*numpy.matrix(tmp) #multiplying a matrix by a constant number beta
     alphaI = alpha*numpy.matrix(I) #multiplying a matrix by a constant number alpha
     InverseS = alphaI + betaPhi
+    print('InverseS: ', InverseS)
     return InverseS 
     # returns S^(-1)
 #end---------------------------------------------------------
@@ -112,7 +115,7 @@ def getm(x):
     
     tmp = numpy.zeros( Mp)
     PhiX = getPhiX(x)
-    print('PhiX', PhiX)
+    #print('PhiX', PhiX)
     PhiX.shape= ( Mp ,1)
     InverseS = getInvS()
     S =  numpy.linalg.inv(InverseS) # getting inverse from InverseS and getting S
@@ -126,9 +129,9 @@ def getm(x):
         tmp = numpy.add(tmp,z)
         n += 1
     numpy.transpose(mult)
-    print('Datas', Datas)
-    print('Z : ', z)
-    print('Mult: ',mult)
+    #print('Datas', Datas)
+    #print('Z : ', z)
+    #print('Mult: ',mult)
     
     result = numpy.dot(numpy.transpose(mult),z)
     print('mx', result)
@@ -194,9 +197,10 @@ def main():
 
     S2 = numpy.array(S2).flatten()
     sig = Fraction(str(S2[0]))
+    sig = float(sig)
 
     print('range', range)
-    print('s', sig)
+    print('sig', sig)
     print ('\ntmp', tmp)
     
    

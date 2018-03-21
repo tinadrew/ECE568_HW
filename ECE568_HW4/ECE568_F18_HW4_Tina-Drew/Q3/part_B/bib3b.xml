@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="bib3b.xsl"?>
+<!DOCTYPE bib SYSTEM "bib3b.dtd">
+
+<bib>
+	<book>
+		<author>
+          <first>Tina</first> 
+          <last>Drew</last>
+      	</author>
+		<title>Life, Love, and Understanding</title>
+		<year>2014</year>
+		<publisher>Cauzing Elevation Publishing, LLC </publisher>
+	</book>
+	
+	<book>
+		<title>Life Application Study Bible</title>
+		<year>2012</year>
+		<publisher>Tyndale House Publishers, Inc</publisher>
+
+	</book>
+	
+	<book>
+		<author>
+          <first>Leslie</first> 
+          <last>Lamport</last>
+      	</author>
+		<title>Latex: A Document Preparation System</title>
+		<year>1986</year>
+		<publisher>Addison-Wesley</publisher>
+	</book>
+
+	<article>
+		<author>
+          <first>David</first> 
+          <last>Marr</last>
+      	</author>
+		<title>Visual information processing</title>
+		<year>1980</year>
+		<volume>290</volume>
+		<page>
+			<from>199</from>
+			<to>218</to>
+		</page>
+		<journal>Phil. Trans. Roy. Soc. B</journal>
+	</article>
+	
+	<article>
+		<author>
+          <first>R. K.</first> 
+          <last>Clifton</last> 
+        </author>
+		<title>Breakdown of echo suppression in the precedence effect</title>
+		<year>1987</year>
+		<volume>82</volume>
+		<page>
+			<from>1834</from>
+			<to>1835</to>
+		</page>
+		<journal>J. Acoust. Soc. Am.</journal>
+	</article>
+	
+	<book>
+		<author>
+          <first>David</first> 
+          <last>Marr</last>
+      	</author>
+		<title>Vision</title>
+		<year>1982</year>
+		<address> NY </address>
+		<publisher>Freeman</publisher>
+	</book>
+
+	<article>
+		<author>
+          <first>David</first> 
+          <last>Marr</last>
+      	</author>
+		<title>Visual information processing</title>
+		<year>1980</year>
+		<volume>290</volume>
+		<page>
+			<from>199</from>
+			<to>218</to>
+		</page>
+	<journal> Phil. Trans. Roy. Soc. B</journal>
+	</article>
+
+	<article>
+		<author>
+          <first>W.G.</first> 
+          <last>Jacoby</last>
+      	</author>
+		<title>Public attitudes toward government spending</title>
+		<year>1994</year>
+		<volume>38</volume>
+		<page>
+			<from>336</from>
+			<to>361</to>
+		</page>
+	<journal>American Journal of Political Science</journal>
+	</article>
+
+	<article>
+		<author>
+          <first>U.G.</first> 
+          <last>Poiger</last>
+      	</author>
+		<title>Rock 'n' roll, female sexuality, and the Cold War Battle over German Identities.</title>
+		<year>1996</year>
+		<volume>68</volume>
+	</article>
+
+</bib>
